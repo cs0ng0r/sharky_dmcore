@@ -8,7 +8,7 @@ Config.Peds = {
         usetext = true,
         label = "~r~[Weapons]\n ~s~I have the finest weapons in town ~g~(E)",
         trigger = function()
-            Config.Notify("Weapons")
+            -- logic to open shop
         end
     },
     [2] = {
@@ -18,7 +18,7 @@ Config.Peds = {
         usetext = true,
         label = "~b~[Dealer]\n ~s~Come on bro, get some drugs ~g~(E)",
         trigger = function()
-            Config.Notify("Drugs")
+            -- logic to open shop
         end
     },
 
