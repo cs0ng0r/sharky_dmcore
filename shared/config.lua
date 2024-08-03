@@ -1,5 +1,7 @@
 Config = {}
 
+Config.FrameWork = "esx" -- esx / qbcore
+
 Config.Peds = {
     [1] = {
         coords = vector3(305.1293, -1589.5740, 29.5322),
@@ -43,19 +45,19 @@ Config.BlipSettings = {
 
 Config.SafeZones = {
     Notify = {
-        enter = "~g~You are in a safe zone!",
-        exit = "~r~You are no longer in a safe zone!"
+        enter = "~g~SafeZone-ban vagy!",
+        exit = "~r~Elhagytad a SafeZonet!"
     },
     Areas = {
         {
-            coords = vector3(305.1293, -1589.5740, 29.5322),
+            coords = vector3(288.2785, -1601.4647, 31.2657),
             radius = 50.0,
         },
     }
 }
 
 Config.Teleport = {
-    MenuTitle = "Teleportation",
+    MenuTitle = "Teleportálás",
     Options = {
         {
             label = "Humane Labs",
